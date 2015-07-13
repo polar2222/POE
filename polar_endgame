@@ -452,10 +452,11 @@ Show
 
 Show
     Rarity = Unique
-    Class "Utility Flasks"
+    Class "Flasks"
     SetTextColor 0 0 0
     SetBackgroundColor 220 98 20
     SetBorderColor 255 255 255
+    SetFontSize 42
     PlayAlertSound 1 100
 
 Show
@@ -468,21 +469,21 @@ Show
 
 Show
     Class "Jewel"
-	Rarity <= Rare
+    Rarity <= Rare
     SetTextColor 255 255 255
     SetBackgroundColor 0 100 150
     SetBorderColor 255 255 255
     SetFontSize 42
     PlayAlertSound 1 100
-	
+
 Show
     Class "Jewel"
-	Rarity = Unique
+    Rarity = Unique
     Rarity = Unique
     SetTextColor 0 0 0
     SetBackgroundColor 220 98 20
     SetBorderColor 255 255 255
-	SetFontSize 42
+    SetFontSize 42
     PlayAlertSound 1 100
 
 # RGB Link
@@ -508,6 +509,7 @@ Show
     SetTextColor 0 0 0
     SetBackgroundColor 220 98 20
     SetBorderColor 0 255 0
+    SetFontSize 42
     PlayAlertSound 1 100
 
 Show
@@ -606,6 +608,7 @@ Show
     SetTextColor 0 0 0
     SetBackgroundColor 220 98 20
     SetBorderColor 255 255 255
+    SetFontSize 42
     PlayAlertSound 1 100
 
 # Quest Items
@@ -621,7 +624,7 @@ Show
     SetTextColor 0 0 0
     SetBackgroundColor 220 98 20
     SetBorderColor 255 255 255
-	SetFontSize 42
+    SetFontSize 42
     PlayAlertSound 1 100
 
 # Items Other
@@ -706,4 +709,3 @@ Show
     SetTextColor 200 200 200 127
     SetBackgroundColor 0 0 0 127
     SetFontSize 17
-
