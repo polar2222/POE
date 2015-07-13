@@ -31,7 +31,7 @@ Show
 # Chaos Orb
 Show
     BaseType "Chaos Orb"
-    SetTextColor 255 255 255
+    SetTextColor 0 0 0
     SetBackgroundColor 240 0 240
     SetBorderColor 255 255 255
     SetFontSize 48
@@ -100,7 +100,7 @@ Show
     SetTextColor 0 0 0
     SetBackgroundColor 0 128 255
     SetBorderColor 255 255 255
-    PlayAlertSound 1 100
+
 
 # Currency General
 Show
@@ -373,11 +373,6 @@ Show
 
 # General Gems
 Show
-    Quality > 0
-    Class "Gem"
-    SetTextColor 57 192 185
-
-Show
     Class "Gem"
     SetTextColor 57 192 185
 
@@ -468,8 +463,8 @@ Show
     PlayAlertSound 1 100
 
 Show
-    Class "Jewel"
     Rarity <= Rare
+    Class "Jewel"
     SetTextColor 255 255 255
     SetBackgroundColor 0 100 150
     SetBorderColor 255 255 255
@@ -477,20 +472,12 @@ Show
     PlayAlertSound 1 100
 
 Show
+    Rarity = Unique
+    Rarity = Unique
     Class "Jewel"
-    Rarity = Unique
-    Rarity = Unique
     SetTextColor 0 0 0
     SetBackgroundColor 220 98 20
     SetBorderColor 255 255 255
-    SetFontSize 42
-    PlayAlertSound 1 100
-
-# RGB Link
-Show
-    SocketGroup "RGB"
-    SetTextColor 0 255 0
-    SetBorderColor 0 255 0
     SetFontSize 42
     PlayAlertSound 1 100
 
@@ -598,7 +585,7 @@ Show
 
 Show
     ItemLevel >= 55
-    Rarity <= Rare
+    Rarity = Rare
     BaseType "Staff"
     SetBorderColor 96 0 255
 
@@ -629,9 +616,9 @@ Show
 
 # Items Other
 Show
-    ItemLevel <= 66
+    ItemLevel <= 60
     LinkedSockets >= 4
-    SetBorderColor 30 144 255
+    SetBorderColor 255 255 255
 
 Show
     ItemLevel >= 75
@@ -693,6 +680,14 @@ Show
     ItemLevel >= 60
     Rarity <= Magic
     Class "Rings" "Amulets" "Belts"
+	
+# RGB Link
+Show
+    SocketGroup "RGB"
+    SetTextColor 0 255 0
+    SetBorderColor 0 255 0
+    SetFontSize 42
+    PlayAlertSound 1 100	
 
 Show
     Rarity = Rare
@@ -709,3 +704,4 @@ Show
     SetTextColor 200 200 200 127
     SetBackgroundColor 0 0 0 127
     SetFontSize 17
+
