@@ -19,7 +19,7 @@ Show
     SetFontSize 48
     PlayAlertSound 1 100
 
-# Exalted Orb
+# Exalted Orb lol I hide from you noobs
 Show
     BaseType "Exalted Orb"
     SetTextColor 255 255 255
@@ -31,7 +31,7 @@ Show
 # Chaos Orb
 Show
     BaseType "Chaos Orb"
-    SetTextColor 255 255 255
+    SetTextColor 0 0 0
     SetBackgroundColor 240 0 240
     SetBorderColor 255 255 255
     SetFontSize 48
@@ -100,7 +100,6 @@ Show
     SetTextColor 0 0 0
     SetBackgroundColor 0 128 255
     SetBorderColor 255 255 255
-    PlayAlertSound 1 100
 
 # Currency General
 Show
@@ -373,34 +372,8 @@ Show
 
 # General Gems
 Show
-    Quality > 0
     Class "Gem"
     SetTextColor 57 192 185
-
-Show
-    Class "Gem"
-    SetTextColor 57 192 185
-
-# Special Flasks
-Show
-    BaseType "Eternal Life Flask"
-    SetTextColor 125 170 200
-
-Show
-    BaseType "Divine Life Flask"
-    SetTextColor 125 170 200
-
-Show
-    BaseType "Eternal Mana Flask"
-    SetTextColor 125 170 200
-
-Show
-    BaseType "Divine Mana Flask"
-    SetTextColor 125 170 200
-
-Show
-    BaseType "Hallowed Life Flask"
-    SetTextColor 125 170 200
 
 # Life Flasks
 Show
@@ -409,10 +382,6 @@ Show
     SetTextColor 125 170 200
     SetBorderColor 0 128 255
 
-Show
-    Rarity = Normal
-    Class "Life Flasks"
-
 # Mana Flasks
 Show
     Quality >= 10
@@ -420,23 +389,12 @@ Show
     SetTextColor 125 170 200
     SetBorderColor 0 128 255
 
-Show
-    Rarity = Normal
-    Class "Mana Flasks"
-
 # Hybrid Flasks
 Show
     Quality >= 10
     Class "Hybrid Flasks"
     SetTextColor 125 170 200
     SetBorderColor 0 128 255
-
-Show
-    Rarity = Normal
-    Class "Hybrid Flasks"
-    SetTextColor 136 136 255 127
-    SetBackgroundColor 0 0 0 127
-    SetFontSize 17
 
 # Utility Flasks
 Show
@@ -468,8 +426,8 @@ Show
     PlayAlertSound 1 100
 
 Show
-    Class "Jewel"
     Rarity <= Rare
+    Class "Jewel"
     SetTextColor 255 255 255
     SetBackgroundColor 0 100 150
     SetBorderColor 255 255 255
@@ -477,20 +435,11 @@ Show
     PlayAlertSound 1 100
 
 Show
+    Rarity = Unique
     Class "Jewel"
-    Rarity = Unique
-    Rarity = Unique
     SetTextColor 0 0 0
     SetBackgroundColor 220 98 20
     SetBorderColor 255 255 255
-    SetFontSize 42
-    PlayAlertSound 1 100
-
-# RGB Link
-Show
-    SocketGroup "RGB"
-    SetTextColor 0 255 0
-    SetBorderColor 0 255 0
     SetFontSize 42
     PlayAlertSound 1 100
 
@@ -526,7 +475,6 @@ Show
     SetTextColor 0 0 0
     SetBackgroundColor 0 255 0
     SetBorderColor 255 255 255
-    SetFontSize 42
     PlayAlertSound 1 100
 
 Show
@@ -563,7 +511,8 @@ Show
     Rarity = Unique
     SetTextColor 0 0 0
     SetBackgroundColor 220 98 20
-    SetBorderColor 255 255 255
+    SetBorderColor 255 0 0
+    SetFontSize 42
     PlayAlertSound 1 100
 
 Show
@@ -579,17 +528,6 @@ Show
     SetBorderColor 250 250 125
 
 Show
-    ItemLevel >= 70
-    Rarity = Magic
-    SetTextColor 136 136 255
-
-Show
-    ItemLevel >= 74
-    Rarity = Normal
-    SetTextColor 200 200 200
-    SetBorderColor 255 255 255
-
-Show
     ItemLevel >= 74
     Rarity = Normal
     Class "Rings" "Amulets" "Belts"
@@ -598,7 +536,7 @@ Show
 
 Show
     ItemLevel >= 55
-    Rarity <= Rare
+    Rarity = Rare
     BaseType "Staff"
     SetBorderColor 96 0 255
 
@@ -627,69 +565,20 @@ Show
     SetFontSize 42
     PlayAlertSound 1 100
 
-# Items Other
 Show
-    ItemLevel <= 66
-    LinkedSockets >= 4
-    SetBorderColor 30 144 255
+    BaseType "Iron Ring"
+
+# RGB Link
+Show
+    SocketGroup "RGB"
+    SetTextColor 0 255 0
+    SetBorderColor 0 255 0
 
 Show
-    ItemLevel >= 75
-    Rarity <= Magic
-    Class "Rings" "Amulets" "Belts"
+    Rarity = Magic
+    BaseType "Leather Belt"
+    SetBorderColor 96 0 255
 
 Show
-    ItemLevel >= 84
-    Rarity <= Magic
-    BaseType "Profane Wand" "Platinum Kris" "Sambar Sceptre" "Opal Wand" "Opal Sceptre"
-
-Show
-    ItemLevel >= 74
-    Rarity <= Magic
-    BaseType "Profane Wand" "Platinum Kris" "Sambar Sceptre" "Opal Wand" "Opal Sceptre"
-
-Show
-    ItemLevel = 83
-    Rarity <= Magic
-    BaseType "Gemini Claw" "Imperial Claw" "Terror Claw" "Imperial Skean" "Imbued Wand" "Tiger Hook" "Eternal Sword" "Jewelled Foil" "Vaal Rapier" "Behemoth Mace" "Harbinger Bow" "Imperial Staff" "Eclipse Staff" "Exquisite Blade" "Reaver Sword" "Fleshripper" "Vaal Axe" "Piledriver" "Coronal Maul" "Opal Sceptre"
-
-Show
-    ItemLevel >= 77
-    Rarity <= Magic
-    BaseType "Gemini Claw" "Imperial Claw" "Terror Claw" "Imperial Skean" "Imbued Wand" "Tiger Hook" "Eternal Sword" "Jewelled Foil" "Vaal Rapier" "Behemoth Mace" "Harbinger Bow" "Imperial Staff" "Eclipse Staff" "Exquisite Blade" "Reaver Sword" "Fleshripper" "Vaal Axe" "Piledriver" "Coronal Maul" "Opal Sceptre"
-
-Show
-    ItemLevel >= 73
-    Rarity <= Magic
-    BaseType "Gemini Claw" "Imperial Claw" "Terror Claw" "Imperial Skean" "Imbued Wand" "Tiger Hook" "Eternal Sword" "Jewelled Foil" "Vaal Rapier" "Behemoth Mace" "Harbinger Bow" "Imperial Staff" "Eclipse Staff" "Exquisite Blade" "Reaver Sword" "Fleshripper" "Vaal Axe" "Piledriver" "Coronal Maul" "Opal Sceptre"
-
-Show
-    ItemLevel >= 84
-    Rarity <= Magic
-    BaseType "Astral Plate" "Titan Gauntlets" "Slink Boots" "Slink Gloves" "Titan Greaves" "Dragonscale Boots" "Dragonscale Gauntlets" "Royal Burgonet" "Lion Pelt" "Nightmare Bascinet" "Imperial Buckler" "Colossal Tower Shield"
-
-Show
-    ItemLevel >= 74
-    Rarity <= Magic
-    BaseType "Astral Plate" "Titan Gauntlets" "Slink Boots" "Slink Gloves" "Titan Greaves" "Dragonscale Boots" "Dragonscale Gauntlets" "Royal Burgonet" "Lion Pelt" "Nightmare Bascinet" "Imperial Buckler" "Colossal Tower Shield" "Spike-Point Arrow Quiver"
-
-Show
-    ItemLevel >= 84
-    Rarity <= Magic
-    BaseType "Vaal Regalia" "Sorcerer Boots" "Sorcerer Gloves" "Hubris Circlet" "Titanium Spirit Shield" "Fossilized Spirit Shield" "Crusader Gloves" "Murder Mitts" "Crusader Boots" "Archon Kite Shield"
-
-Show
-    ItemLevel >= 78
-    Rarity <= Magic
-    BaseType "Vaal Regalia" "Sorcerer Boots" "Sorcerer Gloves" "Hubris Circlet" "Titanium Spirit Shield" "Fossilized Spirit Shield" "Murder Mitts" "Crusader Boots" "Crusader Gloves"
-
-Show
-    ItemLevel >= 75
-    Rarity <= Magic
-    BaseType "Vaal Regalia" "Sorcerer Boots" "Sorcerer Gloves" "Hubris Circlet" "Titanium Spirit Shield" "Fossilized Spirit Shield" "Crusader Gloves" "Crusader Boots" "Archon Kite Shield" "Murder Mitts"
-    SetBorderColor 255 255 255 0
-
-Show
-    ItemLevel >= 60
-    Rarity <= Magic
-    Class "Rings" "Amulets" "Belts"
+    Rarity = Rare
+    SetTextColor 190 190 54
