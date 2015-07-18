@@ -101,12 +101,6 @@ Show
     SetBorderColor 255 255 255
     PlayAlertSound 1 100
 
-Show
-    ItemLevel >= 55
-    Rarity = Rare
-    BaseType "Staff"
-    SetBorderColor 96 0 255
-
 # Unique Maps
 Show
     Rarity = Unique
@@ -449,6 +443,12 @@ Show
     PlayAlertSound 1 100
 	
 Show
+    ItemLevel >= 55
+    Rarity = Rare
+    BaseType "Staff"
+    SetBorderColor 96 0 255	
+	
+Show
     ItemLevel = 83
     Rarity <= Magic
     BaseType "Gemini Claw" "Imperial Claw" "Terror Claw" "Imperial Skean" "Imbued Wand" "Jewelled Foil" "Vaal Rapier" "Harbinger Bow" "Imperial Staff" "Eclipse Staff" "Exquisite Blade" "Reaver Sword" "Fleshripper" "Vaal Axe" "Piledriver" "Coronal Maul" "Opal Sceptre"
@@ -505,6 +505,7 @@ Hide
     Rarity = Magic
     SetTextColor 136 136 255 127
     SetBackgroundColor 0 0 0
+	SetFontSize 25
 
 Hide
     Rarity = Normal
