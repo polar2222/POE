@@ -10,6 +10,16 @@ Changelog 7/31/14:
 
 -Changed sound of common currency drops.
 
+-Added normal sized/blue quality HELM, GLOVES, BOOTS for Warbands loot. Must hold item highlight key to see.
+
 -Added white Gold Ring base.
+
+-Added drop-only gems like "Added Chaos" and "Detonate Mines".
+
+-Added "Cast When Damage Taken"
+
+-Removed small font size for rares/RGB
+
+-Removed background color for scrolls, now just blue border.
 
 
