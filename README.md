@@ -18,6 +18,8 @@ Changelog 7/31/14:
 
 -Added "Cast When Damage Taken"
 
+-Removed all highlevel white bases. Add in later if you want to see them.
+
 -Removed small font size for rares/RGB
 
 -Removed background color for scrolls, now just blue border.
