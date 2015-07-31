@@ -102,7 +102,6 @@ Show
     PlayAlertSound 3 300
 
 Show
-    DropLevel >= 70
     Rarity = Unique
     SetTextColor 0 0 0
     SetBackgroundColor 220 98 20
