@@ -227,84 +227,125 @@ Show
 Show # Maps:68
     Class "Maps"
     BaseType "Crypt" "Desert" "Dunes" "Dungeon" "Grotto" "Pit Map" "Tropical Island"
-    SetFontSize 32
+    SetTextColor 0 0 0
+    SetBackgroundColor 200 150 100
+    SetBorderColor 255 255 255
     PlayAlertSound 4 300
 
 Show # Maps:69
     Class "Maps"
     BaseType "Arcade" "Cemetery" "Channel" "Mountain Ledge" "Sewer" "Thicket" "Wharf"
+    SetTextColor 0 0 0
+    SetBackgroundColor 200 150 100
+    SetBorderColor 255 255 255
     SetFontSize 34
     PlayAlertSound 4 300
 
 Show # Maps:70
     Class "Maps"
     BaseType "Ghetto" "Mud Geyser" "Museum" "Quarry" "Reef" "Spider Lair" "Vaal Pyramid"
+    SetTextColor 0 0 0
+    SetBackgroundColor 200 150 100
+    SetBorderColor 255 255 255
     SetFontSize 34
     PlayAlertSound 4 300
 
 Show # Maps:71
     Class "Maps"
     BaseType "Arena" "Overgrown Shrine" "Promenade" "Shore" "Spider Forest" "Tunnel"
+    SetTextColor 0 0 0
+    SetBackgroundColor 200 150 100
+    SetBorderColor 255 255 255
     SetFontSize 36
     PlayAlertSound 4 300
 
 Show # Maps:72
     Class "Maps"
     BaseType "Bog Map" "Coves" "Graveyard" "Pier" "Underground Sea" "Villa Map"
+    SetTextColor 0 0 0
+    SetBackgroundColor 200 150 100
+    SetBorderColor 255 255 255
     SetFontSize 36
     PlayAlertSound 4 300
 
 Show # Maps:73
     Class "Maps"
     BaseType "Arachnid" "Catacomb" "Colonnade" "Dry Woods" "Strand" "Temple"
+    SetTextColor 0 0 0
+    SetBackgroundColor 200 150 100
+    SetBorderColor 255 255 255
     SetFontSize 38
     PlayAlertSound 4 300
 
 Show # Maps:74
     Class "Maps"
     BaseType "Jungle Valley" "Labyrinth" "Mine" "Torture Chamber" "Waste Pool" "Canyon"
+    SetTextColor 0 0 0
+    SetBackgroundColor 200 150 100
+    SetBorderColor 255 255 255
     SetFontSize 38
     PlayAlertSound 4 300
 
 Show # Maps:75
     Class "Maps"
     BaseType "Canyon" "Cells" "Dark Forest" "Dry Peninsula" "Orchard"
+    SetTextColor 0 0 0
+    SetBackgroundColor 200 150 100
+    SetBorderColor 255 255 255
     SetFontSize 40
     PlayAlertSound 4 300
 
 Show # Maps:76
     Class "Maps"
     BaseType "Arid Lake" "Gorge" "Residence" "Underground River"
+    SetTextColor 0 0 0
+    SetBackgroundColor 200 150 100
+    SetBorderColor 255 255 255
     SetFontSize 40
     PlayAlertSound 4 300
 
 Show # Maps:77
     Class "Maps"
     BaseType "Bazaar" "Necropolis" "Plateau" "Volcano"
+    SetTextColor 0 0 0
+    SetBackgroundColor 200 150 100
+    SetBorderColor 255 255 255
     SetFontSize 42
     PlayAlertSound 4 300
 
 Show # Maps:78
     Class "Maps"
     BaseType "Academy" "Crematorium" "Precinct" "Springs"
+    SetTextColor 0 0 0
+    SetBackgroundColor 200 150 100
+    SetBorderColor 255 255 255
     SetFontSize 42
     PlayAlertSound 4 300
 
 Show # Maps:79
     Class "Maps"
     BaseType "Arsenal" "Overgrown Ruin" "Shipyard" "Village Ruin"
+    SetTextColor 0 0 0
+    SetBackgroundColor 200 150 100
+    SetBorderColor 255 255 255
     SetFontSize 42
     PlayAlertSound 4 300
 
 Show # Maps:80
     Class "Maps"
     BaseType "Courtyard" "Excavation" "Wasteland" "Waterways"
+    SetTextColor 0 0 0
+    SetBackgroundColor 200 150 100
+    SetBorderColor 255 255 255
     SetFontSize 42
     PlayAlertSound 4 300
 
 Show # Maps:81
     Class "Maps"
     BaseType "Shrine" "Maze" "Palace"
+    SetTextColor 0 0 0
+    SetBackgroundColor 200 150 100
+    SetBorderColor 255 255 255
     SetFontSize 44
     PlayAlertSound 4 300
 
@@ -319,6 +360,9 @@ Show # Maps:82
 
 Show
     Class "Maps"
+    SetTextColor 0 0 0
+    SetBackgroundColor 200 150 100
+    SetBorderColor 255 255 255
     SetFontSize 44
     PlayAlertSound 4 300
 
@@ -367,7 +411,7 @@ Show
     SetBackgroundColor 240 0 240
     SetBorderColor 255 255 255
     SetFontSize 34
-    PlayAlertSound 3 300
+    PlayAlertSound 2 300
 
 Show
     BaseType "Portal Scroll" "Scroll of Wisdom" "Blacksmith's Whetstone" "Armourer's Scrap"
@@ -427,7 +471,9 @@ Show
 
 Show
     LinkedSockets = 5
-    SetBorderColor 0 255 255
+    SetTextColor 255 255 255
+    SetBackgroundColor 30 150 180
+    SetBorderColor 255 255 255
     SetFontSize 40
     PlayAlertSound 1 300
 
@@ -472,8 +518,10 @@ Show
 
 Show
     Class "Gem"
-    BaseType "Portal" "Empower" "Enlighten" "Enhance"
-    SetBorderColor 30 150 180
+    BaseType "Portal" "Empower" "Enlighten" "Enhance" "Added Chaos Damage" "Detonate Mines" "Cast when Damage Taken"
+    SetTextColor 255 255 255
+    SetBackgroundColor 30 150 180
+    SetBorderColor 255 255 255
     SetFontSize 40
     PlayAlertSound 6 300
 
@@ -766,14 +814,14 @@ Show
     Rarity = Rare
     Class "Staves"
     SetTextColor 255 190 0
-    SetBackgroundColor 65 25 25
+    SetBackgroundColor 25 55 25
 
 Show
     ItemLevel >= 65
     DropLevel <= 56
     Rarity = Rare
     Class "Staves"
-    SetBackgroundColor 65 25 25
+    SetBackgroundColor 25 55 25
 
 Show
     ItemLevel >= 75
@@ -1086,11 +1134,16 @@ Hide
 
 Show
     Rarity = Normal
-    BaseType "Desert Brigandine"
+    BaseType "Sapphire Flask"
     SetTextColor 0 0 0
     SetBackgroundColor 50 230 100
     SetBorderColor 255 255 255
-    PlayAlertSound 3 100
+    PlayAlertSound 2 300
+
+Show
+    Rarity = Normal
+    BaseType "Gold Ring"
+    SetBorderColor 50 230 100
 
 Hide # Endgame: Show normal ilvl 75+ rings/amulets
     ItemLevel >= 75
@@ -1132,13 +1185,13 @@ Hide # Endgame: Show high level 4 linked items (64+)
     LinkedSockets >= 4
     SetFontSize 32
 
-Hide # Weapons: Show Ambusher CRAFTING
-    Rarity <= Magic
+Show # Weapons: Show Ambusher CRAFTING
+    Rarity = Magic
     BaseType "Ambusher"
     SetFontSize 32
 
-Hide # Weapons: Show Harbinger Bow CRAFTING
-    Rarity <= Magic
+Show # Weapons: Show Harbinger Bow CRAFTING
+    Rarity = Magic
     BaseType "Harbinger Bow"
     SetFontSize 32
 
