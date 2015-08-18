@@ -252,11 +252,11 @@ Show # Maps:70
 
 Show # Maps:71
     Class "Maps"
-    BaseType "Arena" "Overgrown Shrine" "Promenade" "Shore" "Spider Forest" "Tunnel"
+    BaseType "Arena" "Overgrown Shrine" "Promenade" "Shore" "Spider Forest" "Tunnel" "Phantasmagoria"
     SetTextColor 0 0 0
     SetBackgroundColor 200 150 100
     SetBorderColor 255 255 255
-    SetFontSize 36
+    SetFontSize 34
     PlayAlertSound 4 300
 
 Show # Maps:72
@@ -265,7 +265,7 @@ Show # Maps:72
     SetTextColor 0 0 0
     SetBackgroundColor 200 150 100
     SetBorderColor 255 255 255
-    SetFontSize 36
+    SetFontSize 34
     PlayAlertSound 4 300
 
 Show # Maps:73
@@ -274,7 +274,7 @@ Show # Maps:73
     SetTextColor 0 0 0
     SetBackgroundColor 200 150 100
     SetBorderColor 255 255 255
-    SetFontSize 38
+    SetFontSize 34
     PlayAlertSound 4 300
 
 Show # Maps:74
@@ -283,7 +283,7 @@ Show # Maps:74
     SetTextColor 0 0 0
     SetBackgroundColor 200 150 100
     SetBorderColor 255 255 255
-    SetFontSize 38
+    SetFontSize 36
     PlayAlertSound 4 300
 
 Show # Maps:75
@@ -292,7 +292,7 @@ Show # Maps:75
     SetTextColor 0 0 0
     SetBackgroundColor 200 150 100
     SetBorderColor 255 255 255
-    SetFontSize 40
+    SetFontSize 36
     PlayAlertSound 4 300
 
 Show # Maps:76
@@ -301,7 +301,7 @@ Show # Maps:76
     SetTextColor 0 0 0
     SetBackgroundColor 200 150 100
     SetBorderColor 255 255 255
-    SetFontSize 40
+    SetFontSize 36
     PlayAlertSound 4 300
 
 Show # Maps:77
@@ -310,7 +310,7 @@ Show # Maps:77
     SetTextColor 0 0 0
     SetBackgroundColor 200 150 100
     SetBorderColor 255 255 255
-    SetFontSize 42
+    SetFontSize 36
     PlayAlertSound 4 300
 
 Show # Maps:78
@@ -319,7 +319,7 @@ Show # Maps:78
     SetTextColor 0 0 0
     SetBackgroundColor 200 150 100
     SetBorderColor 255 255 255
-    SetFontSize 42
+    SetFontSize 38
     PlayAlertSound 4 300
 
 Show # Maps:79
@@ -328,7 +328,7 @@ Show # Maps:79
     SetTextColor 0 0 0
     SetBackgroundColor 200 150 100
     SetBorderColor 255 255 255
-    SetFontSize 42
+    SetFontSize 40
     PlayAlertSound 4 300
 
 Show # Maps:80
@@ -336,7 +336,7 @@ Show # Maps:80
     BaseType "Courtyard" "Excavation" "Wasteland" "Waterways"
     SetTextColor 0 0 0
     SetBackgroundColor 200 150 100
-    SetBorderColor 255 255 255
+    SetBorderColor 210 0 220
     SetFontSize 42
     PlayAlertSound 4 300
 
@@ -345,16 +345,16 @@ Show # Maps:81
     BaseType "Shrine" "Maze" "Palace"
     SetTextColor 0 0 0
     SetBackgroundColor 200 150 100
-    SetBorderColor 255 255 255
+    SetBorderColor 210 0 220
     SetFontSize 44
     PlayAlertSound 4 300
 
 Show # Maps:82
     Class "Maps"
     BaseType "Abyss" "Colosseum" "Core"
-    SetTextColor 0 0 0
+    SetTextColor 210 0 220
     SetBackgroundColor 255 255 255
-    SetBorderColor 0 0 0
+    SetBorderColor 210 0 220
     SetFontSize 45
     PlayAlertSound 4 300
 
@@ -369,21 +369,26 @@ Show
 Show
     Class "Map Fragments"
     BaseType "Mortal Hope"
-    SetTextColor 0 0 0
+    SetTextColor 210 0 220
     SetBackgroundColor 255 255 255
-    SetBorderColor 0 0 0
+    SetBorderColor 210 0 220
     SetFontSize 45
     PlayAlertSound 6 300
 
 Show
     Class "Map Fragments"
     BaseType "Sacrifice at Midnight"
-    SetBorderColor 0 255 255
+    SetTextColor 0 0 0
+    SetBackgroundColor 0 255 255
+    SetBorderColor 255 0 0
     SetFontSize 40
     PlayAlertSound 4 300
 
 Show
     Class "Map Fragments"
+    SetTextColor 0 0 0
+    SetBackgroundColor 200 150 100
+    SetBorderColor 255 0 0
     SetFontSize 38
     PlayAlertSound 4 300
 
@@ -402,7 +407,7 @@ Show
     SetTextColor 0 0 0
     SetBackgroundColor 240 0 240
     SetBorderColor 255 255 255
-    SetFontSize 38
+    SetFontSize 40
     PlayAlertSound 1 300
 
 Show
@@ -410,13 +415,14 @@ Show
     SetTextColor 0 0 0
     SetBackgroundColor 240 0 240
     SetBorderColor 255 255 255
-    SetFontSize 34
+    SetFontSize 38
     PlayAlertSound 2 300
 
 Show
     BaseType "Portal Scroll" "Scroll of Wisdom" "Blacksmith's Whetstone" "Armourer's Scrap"
     SetTextColor 227 212 177
     SetBorderColor 0 128 255
+    SetFontSize 37
 
 Show
     Class "Divination"
@@ -481,16 +487,17 @@ Show
     ItemLevel >= 75
     Rarity = Rare
     Sockets = 6
-    SetTextColor 255 190 0
-    SetBackgroundColor 75 75 75
-    SetBorderColor 0 0 0
+    SetTextColor 0 0 0
+    SetBackgroundColor 240 0 240
+    SetBorderColor 255 255 255
     SetFontSize 38
     PlayAlertSound 1 300
 
 Show
     Sockets = 6
-    SetBackgroundColor 75 75 75
-    SetBorderColor 0 0 0
+    SetTextColor 0 0 0
+    SetBackgroundColor 240 0 240
+    SetBorderColor 255 255 255
     SetFontSize 38
     PlayAlertSound 1 300
 
@@ -518,7 +525,7 @@ Show
 
 Show
     Class "Gem"
-    BaseType "Portal" "Empower" "Enlighten" "Enhance" "Added Chaos Damage" "Detonate Mines" "Cast when Damage Taken"
+    BaseType "Portal" "Empower" "Enlighten" "Enhance" "Detonate Mines"
     SetTextColor 255 255 255
     SetBackgroundColor 30 150 180
     SetBorderColor 255 255 255
@@ -528,7 +535,9 @@ Show
 Show
     Quality > 15
     Class "Gems"
-    SetBorderColor 30 150 180
+    SetTextColor 255 255 255
+    SetBackgroundColor 30 150 180
+    SetBorderColor 255 255 255
     SetFontSize 41
     PlayAlertSound 1 300
 
@@ -537,6 +546,7 @@ Show
     Class "Gems"
     SetBorderColor 30 150 180 155
     SetFontSize 38
+    PlayAlertSound 1 300
 
 Show
     Class "Gems"
@@ -648,7 +658,7 @@ Show
     Rarity = Rare
     Class "One Hand Swords"
     SetTextColor 255 190 0
-    SetBackgroundColor 25 55 25
+    SetBackgroundColor 65 25 26
     SetBorderColor 0 0 0
 
 Show
@@ -656,7 +666,7 @@ Show
     DropLevel >= 60
     Rarity = Rare
     Class "One Hand Swords"
-    SetBackgroundColor 25 55 25
+    SetBackgroundColor 65 25 26
     SetBorderColor 0 0 0
 
 Show
@@ -665,7 +675,7 @@ Show
     Class "One Hand Swords"
     BaseType "Corsair Sword" "Gemstone Sword" "Graceful Sword" "Cutlass" "Apex Rapier" "Fancy Foil" "Serrated Foil" "Elegant Foil" "Jagged Foil"
     SetTextColor 255 190 0
-    SetBackgroundColor 25 55 25
+    SetBackgroundColor 65 25 26
     SetBorderColor 0 0 0
 
 Show
@@ -673,7 +683,7 @@ Show
     Rarity = Rare
     Class "One Hand Swords"
     BaseType "Corsair Sword" "Gemstone Sword" "Graceful Sword" "Cutlass" "Apex Rapier" "Fancy Foil" "Serrated Foil" "Elegant Foil" "Jagged Foil"
-    SetBackgroundColor 25 55 25
+    SetBackgroundColor 65 25 26
     SetBorderColor 0 0 0
 
 Show
@@ -682,7 +692,7 @@ Show
     Rarity = Rare
     Class "One Hand Swords"
     SetTextColor 255 190 0
-    SetBackgroundColor 65 25 25
+    SetBackgroundColor 65 25 26
 
 Show
     ItemLevel >= 65
@@ -697,7 +707,7 @@ Show
     Rarity = Rare
     Class "One Hand Axes"
     SetTextColor 255 190 0
-    SetBackgroundColor 25 55 25
+    SetBackgroundColor 65 25 26
     SetBorderColor 0 0 0
 
 Show
@@ -705,7 +715,7 @@ Show
     DropLevel >= 64
     Rarity = Rare
     Class "One Hand Axes"
-    SetBackgroundColor 25 55 25
+    SetBackgroundColor 65 25 26
     SetBorderColor 0 0 0
 
 Show
@@ -714,7 +724,7 @@ Show
     Rarity = Rare
     Class "One Hand Maces"
     SetTextColor 255 190 0
-    SetBackgroundColor 25 55 25
+    SetBackgroundColor 65 25 26
     SetBorderColor 0 0 0
 
 Show
@@ -722,7 +732,7 @@ Show
     DropLevel >= 64
     Rarity = Rare
     Class "One Hand Maces"
-    SetBackgroundColor 25 55 25
+    SetBackgroundColor 65 25 26
     SetBorderColor 0 0 0
 
 Show
@@ -746,7 +756,7 @@ Show
     Rarity = Rare
     Class "Sceptres"
     SetTextColor 255 190 0
-    SetBackgroundColor 25 55 25
+    SetBackgroundColor 65 25 26
     SetBorderColor 0 0 0
 
 Show
@@ -754,7 +764,7 @@ Show
     DropLevel >= 62
     Rarity = Rare
     Class "Sceptres"
-    SetBackgroundColor 25 55 25
+    SetBackgroundColor 65 25 26
     SetBorderColor 0 0 0
 
 Show
@@ -927,14 +937,14 @@ Show
     Rarity = Rare
     Class "Gloves" "Boots" "Helmets"
     SetTextColor 255 190 0
-    SetBackgroundColor 65 25 25
+    SetBackgroundColor 25 55 25
 
 Show
     ItemLevel >= 65
     DropLevel <= 15
     Rarity = Rare
     Class "Gloves" "Boots" "Helmets"
-    SetBackgroundColor 65 25 25
+    SetBackgroundColor 25 55 25
 
 Show
     ItemLevel >= 75
@@ -942,7 +952,7 @@ Show
     Rarity = Rare
     Class "Shields"
     SetTextColor 255 190 0
-    SetBackgroundColor 25 55 25
+    SetBackgroundColor 65 25 26
     SetBorderColor 0 0 0
 
 Show
@@ -950,7 +960,7 @@ Show
     DropLevel >= 65
     Rarity = Rare
     Class "Shields"
-    SetBackgroundColor 25 55 25
+    SetBackgroundColor 65 25 26
     SetBorderColor 0 0 0
 
 Show
@@ -991,7 +1001,7 @@ Show
     Class "Shields"
     BaseType "Branded Kite Shield" "Angelic Kite Shield" "Laminated Kite Shield" "Ceremonial Kite Shield"
     SetTextColor 255 190 0
-    SetBackgroundColor 25 55 25
+    SetBackgroundColor 65 25 26
     SetBorderColor 0 0 0
 
 Show
@@ -999,7 +1009,7 @@ Show
     Rarity = Rare
     Class "Shields"
     BaseType "Branded Kite Shield" "Angelic Kite Shield" "Laminated Kite Shield" "Ceremonial Kite Shield"
-    SetBackgroundColor 25 55 25
+    SetBackgroundColor 65 25 26
     SetBorderColor 0 0 0
 
 Show
@@ -1009,7 +1019,7 @@ Show
     Class "Shields"
     BaseType "Buckler" "Spike Shield"
     SetTextColor 255 190 0
-    SetBackgroundColor 25 55 25
+    SetBackgroundColor 65 25 26
     SetBorderColor 0 0 0
 
 Show
@@ -1018,7 +1028,7 @@ Show
     Rarity = Rare
     Class "Shields"
     BaseType "Buckler" "Spike Shield"
-    SetBackgroundColor 25 55 25
+    SetBackgroundColor 65 25 26
     SetBorderColor 0 0 0
 
 Show
@@ -1085,7 +1095,6 @@ Show # Endgame: Show normal ilvl 83+ rings/amulets
     BaseType "Onyx" "Ruby" "Sapphire" "Topaz" "Two-Stone" "Diamond" "Prismatic" "Unset" "Gold" "Citrine" "Turquoise" "Agate" "Coral Ring" "Moonstone" "Leather" "Heavy" "Amber" "Jade" "Lapis"
     SetTextColor 255 255 255
     SetBorderColor 255 255 0
-    SetFontSize 38
 
 Show
     ItemLevel >= 83
@@ -1122,19 +1131,20 @@ Hide # Endgame: Show magic rings, amulets and belts.
 
 Show
     Class "Jewel"
-    SetBackgroundColor 75 75 75
-    SetBorderColor 0 150 200
+    SetTextColor 255 255 255
+    SetBackgroundColor 0 150 200
+    SetBorderColor 255 255 255
     SetFontSize 36
 
 Hide
     Rarity = Normal
-    BaseType "Occultist's Vestment" "Imperial Bow" "Prophecy Wand" "Judgement Staff" "Agate Amulet" "Lapis Amulet" "Amber Amulet"
+    BaseType "Occultist's Vestment" "Imperial Bow" "Prophecy Wand" "Lapis Amulet" "Amber Amulet"
     SetTextColor 255 255 255
     SetBorderColor 0 150 0 150
 
 Show
     Rarity = Normal
-    BaseType "Sapphire Flask"
+    BaseType "Sapphire Flask" "Judgement Staff" "Gold Ring"
     SetTextColor 0 0 0
     SetBackgroundColor 50 230 100
     SetBorderColor 255 255 255
@@ -1142,14 +1152,13 @@ Show
 
 Show
     Rarity = Normal
-    BaseType "Gold Ring"
     SetBorderColor 50 230 100
 
 Hide # Endgame: Show normal ilvl 75+ rings/amulets
     ItemLevel >= 75
     Rarity = Normal
     Class "Rings" "Amulet" "Belts"
-    BaseType "Onyx" "Ruby" "Sapphire" "Topaz" "Two-Stone" "Diamond" "Prismatic" "Unset" "Gold" "Citrine" "Turquoise" "Agate" "Coral Ring" "Moonstone" "Leather" "Heavy" "Amber" "Jade" "Lapis"
+    BaseType "Onyx" "Ruby" "Sapphire" "Topaz" "Two-Stone" "Diamond" "Prismatic" "Unset" "Citrine" "Turquoise" "Coral Ring" "Moonstone" "Leather" "Heavy" "Amber" "Jade" "Lapis"
     SetTextColor 255 255 255
     SetBorderColor 255 190 0 150
     SetFontSize 32
@@ -1158,7 +1167,7 @@ Hide # Endgame: Show normal ilvl 60+ rings/amulets
     ItemLevel >= 60
     ItemLevel < 75
     Class "Rings" "Amulet" "Belts"
-    BaseType "Onyx" "Ruby" "Sapphire" "Topaz" "Two-Stone" "Diamond" "Prismatic" "Unset" "Gold" "Citrine" "Turquoise" "Agate" "Coral Ring" "Moonstone" "Leather" "Heavy" "Amber" "Jade" "Lapis"
+    BaseType "Onyx" "Ruby" "Sapphire" "Topaz" "Two-Stone" "Diamond" "Prismatic" "Unset" "Citrine" "Turquoise" "Coral Ring" "Moonstone" "Leather" "Heavy" "Amber" "Jade" "Lapis"
     SetTextColor 255 255 255
     SetFontSize 32
 
@@ -1272,7 +1281,7 @@ Show
     SetBorderColor 0 0 0
 
 Show
-    Quality >= 1
+    Quality >= 15
     BaseType "Flask"
     SetBackgroundColor 75 75 75
     SetBorderColor 0 0 0
