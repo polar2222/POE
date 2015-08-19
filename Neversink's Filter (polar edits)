@@ -1150,10 +1150,6 @@ Show
     SetBorderColor 255 255 255
     PlayAlertSound 2 300
 
-Show
-    Rarity = Normal
-    SetBorderColor 50 230 100
-
 Hide # Endgame: Show normal ilvl 75+ rings/amulets
     ItemLevel >= 75
     Rarity = Normal
