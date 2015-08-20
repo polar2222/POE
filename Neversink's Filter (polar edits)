@@ -1017,7 +1017,7 @@ Show
     DropLevel >= 60
     Rarity = Rare
     Class "Shields"
-    BaseType "Buckler" "Spike Shield"
+    BaseType "Buckler" "Spiked Shield"
     SetTextColor 255 190 0
     SetBackgroundColor 65 25 26
     SetBorderColor 0 0 0
@@ -1027,7 +1027,7 @@ Show
     DropLevel >= 60
     Rarity = Rare
     Class "Shields"
-    BaseType "Buckler" "Spike Shield"
+    BaseType "Buckler" "Spiked Shield"
     SetBackgroundColor 65 25 26
     SetBorderColor 0 0 0
 
