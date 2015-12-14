@@ -1,7 +1,7 @@
 # Script edited with Filtration - https://github.com/ben-wallis/Filtration
 # ---------------------------------------------------------------------------------------------------------------
 # NeverSink's Indepth Loot Filter
-# VERSION 2.7 - Full
+# VERSION 2.5 - Full
 # ---------------------------------------------------------------------------------------------------------------
 # 
 # You can always find the latest version here:
@@ -179,13 +179,6 @@
 # ---------------------------------------------------------------------------------------------------------------
 
 # Section: ALPHA # GLOBAL OVERRIDE - ADD YOUR OWN RULES THAT WILL OVERRIDE THE OTHERS HERE
-
-Show
-    Rarity = Normal
-    SetTextColor 0 0 0
-    SetBackgroundColor 50 230 100 190
-    SetBorderColor 255 255 255
-    PlayAlertSound 2 300
 
 # Section: ALPHA-a # Talisman league!
 
